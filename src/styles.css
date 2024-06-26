@@ -61,4 +61,9 @@
 img {
     width: auto;
     height: inherit;
+    display: none;
+}
+
+img.active {
+    display: inline;
 }
