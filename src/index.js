@@ -59,4 +59,11 @@ const carouselHandler = (function () {
     currentImageIndex = targetImageIndex;
     setActive(targetImageIndex);
   });
+
+  setInterval(() => {
+    const targetImageIndex =
+      currentImageIndex + 1 === imageCount ? 0 : currentImageIndex + 1;
+    setActive(targetImageIndex);
+    currentImageIndex = targetImageIndex;
+  }, 5000);
 })();
