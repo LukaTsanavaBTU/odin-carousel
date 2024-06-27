@@ -50,7 +50,7 @@
 .order-button {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #EEEEEE;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
@@ -67,3 +67,10 @@ img {
 img.active {
     display: inline;
 }
+
+.prevent-select {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+  }
